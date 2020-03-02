@@ -1,4 +1,4 @@
-class nba_cli :: class
+class nbaCLI::CLI
   
   def start
     puts "Hello there!"

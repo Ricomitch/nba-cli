@@ -1,7 +1,9 @@
 
-lib = File.expand_path("../lib", __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "nba/cli/version"
+# lib = File.expand_path("../lib", __FILE__)
+# $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require_relative 'lib/nbaCLI/version'
+
+#"nba/cli/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "nba-cli"
