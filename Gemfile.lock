@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    nba-cli (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nba-cli!
+
+BUNDLED WITH
+   2.0.1

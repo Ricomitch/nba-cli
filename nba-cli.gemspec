@@ -1,15 +1,15 @@
 
-# lib = File.expand_path("../lib", __FILE__)
-# $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require_relative 'lib/nbaCLI/version'
 
 #"nba/cli/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "nba-cli"
-  spec.version       = Nba::Cli::VERSION
-  spec.authors       = ["'Rico Mitchell'"]
-  spec.email         = ["'ricomitch@icloud.com'"]
+  spec.version       = NbaCLI::VERSION
+  spec.authors       = ["Rico Mitchell"]
+  spec.email         = ["ricomitch@icloud.com"]
 
   spec.summary       = "Cli gem project"
   spec.description   = "Use API data to get a list of SOMETHING"
@@ -38,6 +38,6 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "rake", "~> 10.0"
+  #spec.add_development_dependency "bundler", "~> 2.0"
+  #spec.add_development_dependency "rake", "~> 10.0"
 end
